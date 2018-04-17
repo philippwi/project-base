@@ -1,0 +1,26 @@
+***Projekt Struktur***
+
+src/main/java
+.beans: Bean-Klassen für JSF/Frontend
+.db
+..models: Entity-Klassen für Datenbanktabellen
+..operation: Klassen für Änderungen/Abfragen der Datenbank
+.utility: Klassen für sonstige projektrelevante Backend-Methoden
+
+src/main/resources: Konfigurationsdateien
+
+src/main/webapp
+.pages: alle .xhtml-Seiten
+.WEB-INF: Konfiguration
+
+src/test: to do...
+
+
+----------------------------------------------------------------------------
+
+
+***Datenbank Setup (MySQL)***
+
+CREATE SCHEMA ...
+CREATE TABLE ...
+ (to do)
